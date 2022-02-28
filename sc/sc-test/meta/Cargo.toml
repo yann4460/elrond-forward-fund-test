@@ -1,0 +1,15 @@
+[package]
+name = "test-meta"
+version = "0.0.0"
+edition = "2018"
+authors = [ "Yann <yann4460@gmail.com>",]
+publish = false
+
+[dependencies.test]
+path = ".."
+
+[dependencies.elrond-wasm]
+version = "0.28.0"
+
+[dependencies.elrond-wasm-debug]
+version = "0.28.0"

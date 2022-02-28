@@ -1,0 +1,28 @@
+[package]
+name = "funder-wasm"
+version = "0.0.1"
+authors = [ "GUILLIN Yannick <yann4460@gmail.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+crate-type = [ "cdylib",]
+
+[workspace]
+
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+
+[dependencies.funder]
+path = ".."
+
+[dependencies.elrond-wasm-node]
+version = "0.28.0"
+
+[dependencies.elrond-wasm-output]
+version = "0.28.0"
+features = ["wasm-output-mode"]

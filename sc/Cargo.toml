@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "sc-test",
+  "sc-test/meta",
+  "sc-funder",
+  "sc-funder/meta",
+]

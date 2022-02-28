@@ -1,0 +1,15 @@
+[package]
+name = "funder-meta"
+version = "0.0.0"
+authors = [ "GUILLIN Yannick <yann4460@gmail.com>",]
+edition = "2018"
+publish = false
+
+[dependencies.funder]
+path = ".."
+
+[dependencies.elrond-wasm]
+version = "0.28.0"
+
+[dependencies.elrond-wasm-debug]
+version = "0.28.0"

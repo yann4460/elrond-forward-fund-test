@@ -1,0 +1,19 @@
+[package]
+name = "test"
+version = "0.0.0"
+authors = ["Yann <yann4460@gmail.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.elrond-wasm]
+version = "0.28.0"
+features = ["cb_closure_managed_deser"]
+
+[dependencies.funder]
+path = "../sc-funder"
+
+[dev-dependencies.elrond-wasm-debug]
+version = "0.28.0"
