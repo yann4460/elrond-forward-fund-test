@@ -8,17 +8,17 @@
     "contract":{
         "deploy":{
             "verbose": true,
-            "bytecode": "output/test.wasm",
+            "bytecode": "output/parent.wasm",
             "recall-nonce": true,
             "pem": "../../../wallet/sandbox.pem",
-            "gas-limit": 159999999,
+            "gas-limit": 59999999,
             "send": true,
             "outfile": "deploy-testnet.interaction.json",
-            "arguments":"0x0000000000000000050060e40078438cb06aafd067c6c9b55f3aee4c01c9ee5f"
+            "arguments":"0x00000000000000000500cb7bec5054dc1ea23b74b2c833c3243e9727d976ee5f"
         },
         "upgrade":{
             "verbose": true,
-            "bytecode": "output/test.wasm",
+            "bytecode": "output/parent.wasm",
             "recall-nonce": true,
             "pem": "../../../wallet/sandbox.pem",
             "gas-limit": 59999999,

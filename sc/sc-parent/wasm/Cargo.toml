@@ -1,7 +1,7 @@
 [package]
-name = "test-wasm"
-version = "0.0.0"
-authors = ["Yann <yann4460@gmail.com>"]
+name = "parent-wasm"
+version = "0.0.1"
+authors = [ "GUILLIN Yannick <yann4460@gmail.com>"]
 edition = "2018"
 publish = false
 
@@ -9,9 +9,6 @@ publish = false
 crate-type = [ "cdylib",]
 
 [workspace]
-members = [ ".",]
-
-[dev-dependencies]
 
 [profile.release]
 codegen-units = 1
@@ -20,7 +17,7 @@ lto = true
 debug = false
 panic = "abort"
 
-[dependencies.test]
+[dependencies.parent]
 path = ".."
 
 [dependencies.elrond-wasm-node]
@@ -28,4 +25,4 @@ version = "0.28.0"
 
 [dependencies.elrond-wasm-output]
 version = "0.28.0"
-features = [ "wasm-output-mode",]
+features = ["wasm-output-mode"]

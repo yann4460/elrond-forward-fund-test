@@ -12,8 +12,5 @@ path = "src/funder.rs"
 version = "0.28.0"
 features = ["cb_closure_managed_deser"]
 
-[dependencies.numtoa]
-version = "0.2.4"
-
 [dev-dependencies.elrond-wasm-debug]
 version = "0.28.0"

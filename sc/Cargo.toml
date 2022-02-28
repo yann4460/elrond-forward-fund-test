@@ -1,7 +1,7 @@
 [workspace]
 members = [
-  "sc-test",
-  "sc-test/meta",
+  "sc-parent",
+  "sc-parent/meta",
   "sc-funder",
   "sc-funder/meta",
 ]

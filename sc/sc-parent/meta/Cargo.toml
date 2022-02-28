@@ -1,11 +1,11 @@
 [package]
-name = "test-meta"
+name = "parent-meta"
 version = "0.0.0"
+authors = [ "GUILLIN Yannick <yann4460@gmail.com>",]
 edition = "2018"
-authors = [ "Yann <yann4460@gmail.com>",]
 publish = false
 
-[dependencies.test]
+[dependencies.parent]
 path = ".."
 
 [dependencies.elrond-wasm]

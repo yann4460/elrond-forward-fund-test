@@ -5,10 +5,9 @@
 #![no_std]
 
 elrond_wasm_node::wasm_endpoints! {
-    test
+    parent
     (
+        callBack
         register
     )
 }
-
-elrond_wasm_node::wasm_empty_callback! {}

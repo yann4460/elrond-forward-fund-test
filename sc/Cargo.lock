@@ -174,7 +174,6 @@ version = "0.0.1"
 dependencies = [
  "elrond-wasm",
  "elrond-wasm-debug",
- "numtoa",
 ]
 
 [[package]]
@@ -303,12 +302,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "numtoa"
-version = "0.2.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6aa2c4e539b869820a2b82e1aef6ff40aa85e65decdd5185e83fb4b1249cd00f"
-
-[[package]]
 name = "once_cell"
 version = "1.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -319,6 +312,24 @@ name = "opaque-debug"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "624a8340c38c1b80fd549087862da4ba43e08858af025b236e509b6649fc13d5"
+
+[[package]]
+name = "parent"
+version = "0.0.1"
+dependencies = [
+ "elrond-wasm",
+ "elrond-wasm-debug",
+ "funder",
+]
+
+[[package]]
+name = "parent-meta"
+version = "0.0.0"
+dependencies = [
+ "elrond-wasm",
+ "elrond-wasm-debug",
+ "parent",
+]
 
 [[package]]
 name = "pathdiff"
@@ -510,24 +521,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-xid",
-]
-
-[[package]]
-name = "test"
-version = "0.0.0"
-dependencies = [
- "elrond-wasm",
- "elrond-wasm-debug",
- "funder",
-]
-
-[[package]]
-name = "test-meta"
-version = "0.0.0"
-dependencies = [
- "elrond-wasm",
- "elrond-wasm-debug",
- "test",
 ]
 
 [[package]]
