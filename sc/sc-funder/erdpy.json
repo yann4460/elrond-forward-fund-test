@@ -10,7 +10,7 @@
             "verbose": true,
             "bytecode": "output/funder.wasm",
             "recall-nonce": true,
-            "pem": "../../../../wallet/sandbox.pem",
+            "pem": "../../../wallet/sandbox.pem",
             "gas-limit": 59999999,
             "send": true,
             "outfile": "deploy-testnet.interaction.json"
@@ -19,7 +19,7 @@
             "verbose": true,
             "bytecode": "output/funder.wasm",
             "recall-nonce": true,
-            "pem": "../../../../wallet/sandbox.pem",
+            "pem": "../../../wallet/sandbox.pem",
             "gas-limit": 59999999,
             "send": true,
             "outfile": "deploy-testnet.interaction.json"

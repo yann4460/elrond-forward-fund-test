@@ -10,16 +10,17 @@
             "verbose": true,
             "bytecode": "output/test.wasm",
             "recall-nonce": true,
-            "pem": "../../../../wallet/sandbox.pem",
-            "gas-limit": 59999999,
+            "pem": "../../../wallet/sandbox.pem",
+            "gas-limit": 159999999,
             "send": true,
-            "outfile": "deploy-testnet.interaction.json"
+            "outfile": "deploy-testnet.interaction.json",
+            "arguments":"0x0000000000000000050060e40078438cb06aafd067c6c9b55f3aee4c01c9ee5f"
         },
         "upgrade":{
             "verbose": true,
             "bytecode": "output/test.wasm",
             "recall-nonce": true,
-            "pem": "../../../../wallet/sandbox.pem",
+            "pem": "../../../wallet/sandbox.pem",
             "gas-limit": 59999999,
             "send": true,
             "outfile": "deploy-testnet.interaction.json"
